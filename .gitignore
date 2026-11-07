@@ -1,0 +1,40 @@
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+.env.*
+
+# Hugging Face models and cache
+.cache/
+models/
+*.safetensors
+*.gguf
+*.bin
+
+# Private documents
+documents/
+uploads/
+*.pdf
+*.docx
+
+# Vector databases
+chroma_db/
+vector_db/
+*.faiss
+
+# Logs
+*.log
+
+# IDE
+.idea/
+
+# Chroma vector database
+vectorstore/
